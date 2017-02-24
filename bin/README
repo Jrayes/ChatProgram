@@ -1,0 +1,20 @@
+*======================================= CHAT RC ======================================*
+
+						<SSL> CHAT RC by Jad Rayes ( JAVA SE 8 )  
+									Version 1.0 ALPHA.
+						Securely Log in and chat with your friends. 
+						
+						
+						
+USAGE 
+One user acts as a server the rest as clients. Multiple connections are supported by Java's
+threading API. Server is only configured to run locally. To change this edit Server.java, and replace HOST,
+and PORT with the appropriate values.
+A CLI and GUI exist for this service, and has not yet been deployed.
+
+GOALS OF DEVELOPMENT 
+Make connections more secure and incorporate SSL. 
+
+
+KNOWN BUGS AND ISSUES 
+Issues encountered with the DBMS, specifically ORACLE. Switched to MYSQL.
